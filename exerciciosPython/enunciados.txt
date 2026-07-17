@@ -1,0 +1,352 @@
+1. Arrays
+Problema: RotateString
+
+Dado um vetor e um inteiro k, rotacione o vetor para a direita k vezes.
+
+Entrada
+
+5
+1 2 3 4 5
+2
+
+Saída esperada
+
+4 5 1 2 3
+
+
+
+2. Strings
+Problema: Maior palavra
+
+Leia uma frase e imprima a palavra com mais caracteres.
+
+Se houver empate, imprima a primeira.
+
+Entrada
+
+Python é uma linguagem fantástica
+
+Saída
+
+fantástica
+
+
+
+3. Dicionários (HashMap)
+Problema: Primeiro caractere único
+
+Dada uma string, encontre o primeiro caractere que aparece apenas uma vez.
+
+Entrada
+
+aabbccddefg
+
+Saída
+
+e
+
+
+
+4. Matrizes
+Problema: Soma das diagonais
+
+Leia uma matriz quadrada.
+
+Imprima:
+
+soma da diagonal principal
+soma da diagonal secundária
+
+Entrada
+
+3
+1 2 3
+4 5 6
+7 8 9
+
+Saída
+
+15
+15
+
+
+
+5. Pilha (Stack)
+Problema: Editor de texto
+
+Você receberá comandos:
+
+ADD palavra
+UNDO
+
+Sempre que receber UNDO, desfaça a última inserção.
+
+Entrada
+
+ADD casa
+ADD azul
+UNDO
+ADD carro
+FIM
+
+Saída
+
+casa
+carro
+
+
+
+6. Fila (Queue)
+Problema: Atendimento
+
+Comandos:
+
+ENTRA nome
+ATENDE
+
+Sempre atenda quem chegou primeiro.
+
+Entrada
+
+ENTRA Ana
+ENTRA Pedro
+ATENDE
+ENTRA Carlos
+ATENDE
+FIM
+
+Saída
+
+Ana
+Pedro
+
+
+
+7. Busca Binária
+Problema: Encontrar posição
+
+Lista ordenada.
+
+Retorne o índice do número.
+
+Se não existir:
+
+-1
+
+Entrada
+
+7
+1 4 6 9 13 20 35
+13
+
+Saída
+
+4
+
+
+
+8. Recursão
+Problema: Soma dos dígitos
+
+Entrada:
+
+5482
+
+Saída:
+
+19
+
+Sem usar loops.
+
+
+
+9. Backtracking
+Problema: Gerar todas as permutações
+
+Entrada
+
+ABC
+
+Saída
+
+ABC
+ACB
+BAC
+BCA
+CAB
+CBA
+10. Ordenação
+Problema: Ranking
+
+Leia:
+
+Nome Nota
+
+Ordene por:
+
+maior nota
+em empate, ordem alfabética.
+
+Entrada
+
+4
+Ana 8
+Carlos 10
+Pedro 8
+Bruno 7
+
+Saída
+
+Carlos
+Ana
+Pedro
+Bruno
+
+
+
+11. Árvores
+
+Você receberá uma árvore binária representada por tuplas.
+
+Exemplo:
+
+(10,
+ (5, None, None),
+ (15, None, None))
+
+Imprima em ordem (in-order).
+
+Saída
+
+5
+10
+15
+
+
+
+12. Grafos
+Problema: Existe caminho?
+
+Entrada
+
+5 5
+1 2
+2 3
+3 4
+4 5
+1 5
+1 4
+
+Significa:
+
+5 vértices
+
+5 arestas
+
+pergunta:
+Existe caminho entre 1 e 4?
+
+Saída
+
+SIM
+
+
+
+13. Programação Dinâmica
+Problema: Subir escadas
+
+Você pode subir:
+
+1 degrau
+2 degraus
+
+Quantas formas existem de subir N degraus?
+
+Entrada
+
+5
+
+Saída
+
+8
+
+
+
+14. Arquivos
+
+Arquivo:
+
+vendas.txt
+
+Notebook,3500
+Mouse,120
+Monitor,900
+Teclado,180
+
+Seu programa deve imprimir
+
+Produtos: 4
+Valor total: 4700
+Produto mais caro: Notebook
+
+
+
+15. JSON
+
+Arquivo
+
+[
+ {"nome":"Ana","idade":20},
+ {"nome":"Pedro","idade":17},
+ {"nome":"Carlos","idade":25}
+]
+
+Imprima somente maiores de idade.
+
+Saída
+
+Ana
+Carlos
+
+
+
+16. SQLite
+
+Tabela
+
+clientes
+
+id
+nome
+cidade
+
+Escreva um programa que permita:
+
+1 - Inserir cliente
+2 - Buscar cliente por cidade
+3 - Remover cliente
+4 - Listar clientes
+
+
+
+17. Problema "estilo maratona"
+
+Receba números indefinidamente até EOF.
+
+Para cada linha:
+
+remova números repetidos;
+ordene;
+imprima.
+
+Entrada
+
+4 2 5 2 1
+9 9 8 7 8
+5 5 5
+
+Saída
+
+1 2 4 5
+7 8 9
+5
